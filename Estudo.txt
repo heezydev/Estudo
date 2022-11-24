@@ -1,0 +1,126 @@
+<p> </p> Paragrafo
+<h1> </h1> Titulo
+
+
+                                       Atributos 
+<tag atributo="valor"> texto aqui </tag>
+Exemplo:<p>texto com <a href="http://ctrlpanel2.medgrupo.com.br/Principal">HTML5</a></p>
+
+Atributo Target abrir em outra aba
+
+                 Tipos de link
+<a href="http:www.
+<a href="mailto:alguem@server.com"> 
+
+                                 Quebras de linha
+
+<br>	
+<hr>
+
+
+                                  Enfase em textos
+<i>italico</i> 
+<b>negrito</b>
+
+<em> italico semantico </em>
+<strong> negrito semantico </strong>
+
+
+                                imagens, arquivos externos e links
+<a> href e title
+
+<link>
+href e rel
+
+<img>
+src e alt
+
+<script>
+ src
+
+
+        -----------------------------CSS------------------------------
+
+
+
+Cascating Style Sheets
+
+Sintaxe do CSS
+
+    seletor {propriedade: valor;}
+exemplo: h1 {color:red;
+font-size: 16px;
+}
+
+Como incluir
+
+Inline <p style="..."> ... </p>
+
+Interno	<style> ... </style>
+
+Externo <link href=".css" rel="stylesheet">
+
+Seletores de elemento
+
+HTML 
+<p> ... </p>
+
+CSS
+.minha-classe {...}
+
+ #meu-id {...}
+
+                                  Fonts
+
+Font-family se eu quiser trabalhar com a familia da fonte
+Font-size se eu quiser trabalhar com o tamanho
+Font-style ou é normal ou é italico
+Font-variant 
+
+Text
+
+text-align
+text-decoration
+text-indent
+text-transform
+
+#RGB
+ #fffff branco
+ #ff0000 vermelho
+ #00ff00 verde
+ #0000ff azul
+ #ffff00 amarelo
+ #ff00ff magenta
+ #00ffff cyan
+
+color & background-color 
+color muda a fonte
+background-color muda o fundo da pagina
+
+.destaque{}
+
+class:"destaque";
+
+quando é id começa com #destaque:{}
+
+
+
+                              MODELO DE CAIXA
+ BORDER É BORDA ENTÃO É SOBRE ESTILO DE BORDA, TAMANHO DA BORDA E COR DA BORDA
+h1{
+border-top: solid 30px yellow;
+border-bottom:grooved 50px red;
+}
+
+
+
+
+a{
+            color:green
+        }
+        a:hover{
+        color:red ;}
+
+        a:visited{color: yellow;}
+
+para links
